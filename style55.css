@@ -1,0 +1,239 @@
+body {
+	margin: 0;
+}
+/*======================================*/
+/*        Common Styling Start          */
+/*======================================*/
+.w-50 {
+	width: 50%;
+	float: left;
+	box-sizing: border-box;
+}
+
+.container {
+	overflow: hidden;
+	width: 75%;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+.line {
+	border-top: 1px solid #dadde1;
+	margin: 20px 0;
+}
+
+/*======================================*/
+/*        Common Styling End            */
+/*======================================*/
+
+
+/*======================================*/
+/*        Main-area  Start              */
+/*======================================*/
+.main-area {
+	background: #f0f2f5;
+	overflow: hidden;
+	padding: 133px 0px 133px;
+    	
+}
+
+.main-area .facebook-image {
+	margin-top: 42px;
+}
+
+.main-area .facebook-image img {
+	width: 300px;
+	height: auto;
+	margin-left: -12px;
+}
+
+.main-area .facebook-help h3 {
+	margin: -14px 0 0 16px;
+	font-size: 28px;
+	font-family: tahoma;
+	color: #1c1e21;
+	font-weight: normal;
+}
+
+.main-area .login-form {
+	width: 68%;
+	background: #ffffff;
+	padding: 15px 20px 15px;
+	border-radius: 6px;
+	text-align: center;
+	margin: auto;
+}
+
+.main-area .login-form input {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.main-area .login-form input[type="text"],
+.main-area .login-form input[type="password"] {
+	padding: 15px;
+	font-size: 18px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #c4c6d0;
+}
+::placeholder {
+	color: #666666;
+}
+
+.main-area .login-form input[type="submit"] {
+	background: #1877f2;
+	color: #FFFFFF;
+	padding: 15px 0;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: verdana;
+	margin-bottom: 10px;
+}
+
+.main-area .login-form input[type="text"]:focus, 
+.main-area .login-form input[type="password"]:focus {
+	border: 1px solid #1844f2;
+}
+
+.main-area .login-form .forgot-link {
+	color: #1877f2;
+	text-decoration: none;
+	margin-bottom: 10px;
+}
+
+.main-area .login-form .forgot-link:hover {
+	text-decoration: underline;
+	font-size: 14px;
+}
+
+.line {
+	border-top: 1px solid #dadde1;
+	margin: 20px 0;
+}
+
+.main-area .login-form .creat-acc-link {
+	background: #42b72a;
+	padding: 15px 12px;
+	display: inline-block;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: verdana;
+	font-size: 14px;
+	border-radius: 5px;
+}
+
+.main-area .creat-page {
+	text-align: center;
+	text-decoration: none;
+	margin-top: 25px;
+}
+
+.main-area .creat-page a {
+	text-decoration: none;
+	color: #1c1e5f;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+.main-area .creat-page p {
+	color: #1c1e21;
+	font-size: 14px;
+}
+/*======================================*/
+/*        Main-area  End                */
+/*======================================*/
+
+
+
+
+
+
+/*======================================*/
+/*        Foter-area  Start             */
+/*======================================*/
+
+.footer-area {
+	padding: 30px 0;
+}
+.footer-area .Lnguage ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	
+}
+.footer-area .Lnguage ul a, 
+.footer-area .custom-links ul a {
+	text-decoration: none;
+	color: #8a8d91;
+	font-family: inherit;
+}
+
+.footer-area .Lnguage ul li, 
+.footer-area .custom-links ul li {
+	float: left;
+	margin-right: 12px;
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+
+
+.footer-area .custom-links ul {
+	list-style-type: none;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+.footer-area .custom-links ul a {
+	margin-bottom: 5px;
+	margin-right: 12px;
+	text-decoration: none;
+}
+
+.footer-area .copyright {
+	font-size: 14px;
+	color: #8888bd;
+	margin-top: 40px;
+}
+
+.footer-area ul a:hover {
+	text-decoration: underline;
+}
+/* .footer-area .custom-links ul a { */
+	/* text-decoration: none; */
+	/* color: #8a8d91; */
+/* } */
+
+/* .footer-area .custom-links ul li { */
+	/* float: left; */
+	/* margin-right: 8px; */
+	/* color: #8a8d91; */
+/* } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*======================================*/
+/*        Foter-area  End               */
+/*======================================*/
